@@ -1,24 +1,38 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<p align="center"><img src="https://www.netsetsoftware.com/images2/logonetset.png"></p>
 
-Things you may want to cover:
+# About Project: 
 
-* Ruby version
+In this project user can signup and login to the app through a secure authentication system. Users can create products and can choose to make them private or public for other users. User can also delete an existing product.   
 
-* System dependencies
+1. Signup and Login
+2. Product Creation and Deletion
+3. Product Types - Public and Private
 
-* Configuration
 
-* Database creation
+# Configuration
 
-* Database initialization
+* Ruby version : ruby 2.6.1p33
 
-* How to run the test suite
+* Rails version : Rails 5.2.3
 
-* Services (job queues, cache servers, search engines, etc.)
+* Bundler version : 2.0.2
 
-* Deployment instructions
+# How to Run The Project
 
-* ...
+Run the following commands on terminal
+
+ 1. bundle 
+ 2. rake db:create
+ 3. rake db:migrate
+ 4. rails s
+
+ Routes:
+
+ 1. http://localhost:3000 will redirect user to localhost:3000/users/sign_in (if user has not signed in)
+ 2. http://localhost:3000/users/sign_up users can sign up from here
+ 3. http://localhost:3000/ This is the user home page 
+ 4. http://localhost:3000/products This is the product page
+ 5. http://localhost:3000/products/new This is the product create page                      
+
+
